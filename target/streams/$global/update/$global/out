@@ -1,0 +1,680 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/}twitterextract...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/parvizd/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/parvizd/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.akka#akka-actor;2.0.1 (resolved by Typesafe Releases): /Users/parvizd/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.typesafe.akka#akka-actor;2.0.1 (resolved by Typesafe Releases): /Users/parvizd/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0m	checking com.typesafe.akka#akka-actor;2.0.1 from Typesafe Releases against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.typesafe.akka#akka-actor;2.0.1 from Typesafe Releases[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor;2.0.1 in Typesafe Releases[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-core;3.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-core;3.0.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-core;3.0.3 (resolved by public): /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-core;3.0.3 (resolved by public): /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-core/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0m	checking org.twitter4j#twitter4j-core;3.0.3 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.twitter4j#twitter4j-core;3.0.3 from public[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-core;3.0.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0minfo[0m] [0mResolving org.twitter4j#twitter4j-stream;3.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.twitter4j#twitter4j-stream;3.0.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-stream;3.0.3 (resolved by public): /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.twitter4j#twitter4j-stream;3.0.3 (resolved by public): /Users/parvizd/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-3.0.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	checking org.twitter4j#twitter4j-stream;3.0.3 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.twitter4j#twitter4j-stream;3.0.3 from public[0m
+[0m[[0mdebug[0m] [0m	found org.twitter4j#twitter4j-stream;3.0.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor;2.0.1->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->com.typesafe.akka#akka-actor;2.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.typesafe.akka#akka-actor;2.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1-1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-core;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.twitter4j#twitter4j-stream;3.0.3->org.twitter4j#twitter4j-core;3.0.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-core;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT->org.twitter4j#twitter4j-stream;3.0.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.twitter4j#twitter4j-stream;3.0.3 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/com.amazonaws/twitterextract_2.9.2/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor;2.0.1!akka-actor.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-core;3.0.3!twitter4j-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.twitter4j#twitter4j-stream;3.0.3!twitter4j-stream.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 428ms :: artifacts dl 23ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT compile produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT runtime produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT test produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT provided produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT optional produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT compile-internal produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT runtime-internal produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.1 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.typesafe.akka#akka-actor depends on org.scala-lang#scala-library;2.9.1-1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-core;3.0.3 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.twitter4j#twitter4j-stream;3.0.3 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.twitter4j#twitter4j-core;3.0.3[0m
+[0m[[0mdebug[0m] [0mSort done for : org.twitter4j#twitter4j-stream;3.0.3[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT test-internal produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT plugin produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT sources produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT docs produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for com.amazonaws#twitterextract_2.9.2;0.1-SNAPSHOT pom produced in /Users/parvizd/Downloads/eclipse/Eclipse.app/Contents/MacOS/workspace/twitterextract/target/resolution-cache/reports/com.amazonaws-twitterextract_2.9.2/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (428ms resolve - 23ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
